@@ -2,14 +2,14 @@ import React from 'react';
 
 export default function ProductImage() {
   return (
-    <aside class="l-pdp-image" aria-label="Product images">
+    <aside className="l-pdp-image" aria-label="Product images">
       <div
         data-widget="productImages"
         data-active-viewtype="product_image_main"
       >
-        <div class="b-product_gallery-inner" data-ref="carouselInner">
+        <div className="b-product_gallery-inner" data-ref="carouselInner">
           <div
-            class="b-product_gallery-main m-next_visible m-inited"
+            className="b-product_gallery-main m-next_visible m-inited"
             data-tau="product_gallery_main"
             id="imagesCarousel"
             data-widget="carousel"
@@ -18,20 +18,20 @@ export default function ProductImage() {
             data-initialized="1"
           >
             <div
-              class="b-product_gallery-track "
+              className="b-product_gallery-track "
               id="product_gallery_track"
               data-event-mouseup="onMouseUp"
             >
               <div
                 id="product-image-0-wrapper"
-                class="b-product_gallery-item"
+                className="b-product_gallery-item"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-0"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl/womens-white-bandeau-feather-mini-bodycon-party-dress/?w=900&amp;qlt=default&amp;fmt.jp2.qlt=70&amp;fmt=auto&amp;sm=fit"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     lt="White Bandeau Feather Mini Bodycon Party Dress image number 1"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl/?qlt=80&amp;fmt=auto"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -43,16 +43,16 @@ export default function ProductImage() {
               </div>
               <div
                 id="product-image-1-wrapper"
-                class="b-product_gallery-item"
+                className="b-product_gallery-item"
                 role="button"
                 tabindex="0"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-1"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl/female-white-bandeau-feather-mini-bodycon-party-dress"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     alt="White Bandeau Feather Mini Bodycon Party Dress image number 2"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl/female-white-bandeau-feather-mini-bodycon-party-dress"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -64,16 +64,16 @@ export default function ProductImage() {
               </div>
               <div
                 id="product-image-2-wrapper"
-                class="b-product_gallery-item "
+                className="b-product_gallery-item "
                 role="button"
                 tabindex="0"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-2"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_1/female-white-bandeau-feather-mini-bodycon-party-dress"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     alt="White Bandeau Feather Mini Bodycon Party Dress image number 3"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_1/female-white-bandeau-feather-mini-bodycon-party-dress"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -85,16 +85,16 @@ export default function ProductImage() {
               </div>
               <div
                 id="product-image-3-wrapper"
-                class="b-product_gallery-item "
+                className="b-product_gallery-item "
                 role="button"
                 tabindex="0"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-3"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_1/female-white-bandeau-feather-mini-bodycon-party-dress"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     alt="White Bandeau Feather Mini Bodycon Party Dress image number 4"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_1/female-white-bandeau-feather-mini-bodycon-party-dress"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -106,16 +106,16 @@ export default function ProductImage() {
               </div>
               <div
                 id="product-image-4-wrapper"
-                class="b-product_gallery-item "
+                className="b-product_gallery-item "
                 role="button"
                 tabindex="0"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-4"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_2/female-white-bandeau-feather-mini-bodycon-party-dress"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     alt="White Bandeau Feather Mini Bodycon Party Dress image number 5"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_2/female-white-bandeau-feather-mini-bodycon-party-dress"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -127,16 +127,16 @@ export default function ProductImage() {
               </div>
               <div
                 id="product-image-5-wrapper"
-                class="b-product_gallery-item "
+                className="b-product_gallery-item "
                 role="button"
                 tabindex="0"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-5"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_2/female-white-bandeau-feather-mini-bodycon-party-dress"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     alt="White Bandeau Feather Mini Bodycon Party Dress image number 6"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_2/female-white-bandeau-feather-mini-bodycon-party-dress"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -148,16 +148,16 @@ export default function ProductImage() {
               </div>
               <div
                 id="product-image-6-wrapper"
-                class="b-product_gallery-item "
+                className="b-product_gallery-item "
                 role="button"
                 tabindex="0"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-6"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_3/female-white-bandeau-feather-mini-bodycon-party-dress"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     alt="White Bandeau Feather Mini Bodycon Party Dress image number 7"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_3/female-white-bandeau-feather-mini-bodycon-party-dress"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -169,16 +169,16 @@ export default function ProductImage() {
               </div>
               <div
                 id="product-image-7-wrapper"
-                class="b-product_gallery-item "
+                className="b-product_gallery-item "
                 role="button"
                 tabindex="0"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-7"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_3/female-white-bandeau-feather-mini-bodycon-party-dress"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     alt="White Bandeau Feather Mini Bodycon Party Dress image number 8"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_3/female-white-bandeau-feather-mini-bodycon-party-dress"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -190,16 +190,16 @@ export default function ProductImage() {
               </div>
               <div
                 id="product-image-8-wrapper"
-                class="b-product_gallery-item "
+                className="b-product_gallery-item "
                 role="button"
                 tabindex="0"
                 data-event-keydown="handleKeydown"
               >
-                <picture class="b-product_image">
+                <picture className="b-product_image">
                   <img
                     id="product-image-8"
                     src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_4/female-white-bandeau-feather-mini-bodycon-party-dress"
-                    class="b-product_image-img"
+                    className="b-product_image-img"
                     alt="White Bandeau Feather Mini Bodycon Party Dress image number 9"
                     data-original-src="//media.boohoo.com/i/boohoo/fzz81092_white_xl_4/female-white-bandeau-feather-mini-bodycon-party-dress"
                     data-caption="Bandeau Feather Mini Bodycon Party Dress"
@@ -211,7 +211,7 @@ export default function ProductImage() {
               </div>
             </div>
             <button
-              class="b-product_gallery-ctrl m-prev"
+              className="b-product_gallery-ctrl m-prev"
               aria-label="Scroll to next image"
               title="Next"
               data-ref="elemPrevButton"
@@ -223,7 +223,7 @@ export default function ProductImage() {
               disabled=""
             ></button>
             <button
-              class="b-product_gallery-ctrl m-next"
+              className="b-product_gallery-ctrl m-next"
               aria-label="Scroll to previous image"
               title="Previous"
               data-ref="elemNextButton"
@@ -234,49 +234,49 @@ export default function ProductImage() {
               tabindex="-1"
             ></button>
             <div
-              class="b-product_gallery-pagination m-hide-sm"
+              className="b-product_gallery-pagination m-hide-sm"
               data-ref="pagination"
             >
               <button
-                class="b-product_gallery-pagination_bullet m-current"
+                className="b-product_gallery-pagination_bullet m-current"
                 data-page="0"
                 tabindex="-1"
               >
-                <span class="b-sr_only">Slide 1 of 9</span>
+                <span className="b-sr_only">Slide 1 of 9</span>
               </button>
               <button
-                class="b-product_gallery-pagination_bullet"
+                className="b-product_gallery-pagination_bullet"
                 data-page="1"
                 tabindex="-1"
               >
-                <span class="b-sr_only">Slide of 9</span>
+                <span className="b-sr_only">Slide of 9</span>
               </button>
               <button
-                class="b-product_gallery-pagination_bullet"
+                className="b-product_gallery-pagination_bullet"
                 data-page="2"
                 tabindex="-1"
               >
-                <span class="b-sr_only">Slide of 9</span>
+                <span className="b-sr_only">Slide of 9</span>
               </button>
               <button
-                class="b-product_gallery-pagination_bullet"
+                className="b-product_gallery-pagination_bullet"
                 data-page="3"
                 tabindex="-1"
               >
-                <span class="b-sr_only">Slide of 9</span>
+                <span className="b-sr_only">Slide of 9</span>
               </button>
             </div>
 
             <div
-              class="b-image_magnifier-window m-hide"
+              className="b-image_magnifier-window m-hide"
               data-ref="magnifierWindow"
             >
               <div
-                class="b-image_magnifier-placeholder"
+                className="b-image_magnifier-placeholder"
                 data-widget="magnifierPopup"
                 id="magnifierPopupElement"
                 data-ref="magnifierPreview"
-                data-classes-global-dialog="m-zoom-initialized"
+                data-classNamees-global-dialog="m-zoom-initialized"
                 data-click-out-side="false"
                 data-close-by-escape="false"
                 data-initialized="1"
@@ -284,7 +284,7 @@ export default function ProductImage() {
                 <img
                   alt="preview"
                   data-ref="magnifierPreviewImg"
-                  class="b-image_magnifier-zoom_window_img"
+                  className="b-image_magnifier-zoom_window_img"
                   src="https://media.boohoo.com/i/boohoo/fzz81092_white_xl/womens-white-bandeau-feather-mini-bodycon-party-dress/?w=900&amp;qlt=default&amp;fmt.jp2.qlt=70&amp;fmt=auto&amp;sm=fit"
                   aria-hidden="true"
                   role="presentation"
@@ -294,14 +294,14 @@ export default function ProductImage() {
           </div>
         </div>
         <div
-          class="b-photoswipe pswp"
+          className="b-photoswipe pswp"
           role="dialog"
           aria-hidden="true"
           data-ref="pswp"
         >
-          <div class="b-photoswipe-info" data-ref="dialog">
-            <span class="b-zoom_info">
-              <span class="b-zoom_info-icon">
+          <div className="b-photoswipe-info" data-ref="dialog">
+            <span className="b-zoom_info">
+              <span className="b-zoom_info-icon">
                 <svg
                   width="25"
                   height="24"
@@ -324,7 +324,7 @@ export default function ProductImage() {
                   </g>
                 </svg>
               </span>
-              <span class="b-zoom_info-icon_sm">
+              <span className="b-zoom_info-icon_sm">
                 <svg
                   width="30"
                   height="37"
@@ -338,15 +338,15 @@ export default function ProductImage() {
                   </g>
                 </svg>
               </span>
-              <span class="b-zoom_info-content">
-                <span class="b-zoom_info-copy m-lg">Click</span>
-                <span class="b-zoom_info-copy m-md">Double tap</span>
-                <span class="b-zoom_info-copy m-sm">Pinch</span>
+              <span className="b-zoom_info-content">
+                <span className="b-zoom_info-copy m-lg">Click</span>
+                <span className="b-zoom_info-copy m-md">Double tap</span>
+                <span className="b-zoom_info-copy m-sm">Pinch</span>
                 to zoom
               </span>
             </span>
             <button
-              class="b-photoswipe-close"
+              className="b-photoswipe-close"
               data-event-keydown="closeZoomKeydown"
               title="Close"
               data-tau="zoom_dialog_close"
@@ -354,7 +354,7 @@ export default function ProductImage() {
             >
               <svg
                 role="img"
-                class="i-icon i-icon-closeSmall"
+                className="i-icon i-icon-closeSmall"
                 xmlns="http://www.w3.org/2000/svg"
                 aria-hidden="true"
                 width="16"
@@ -376,42 +376,42 @@ export default function ProductImage() {
               </svg>
             </button>
           </div>
-          <div class="pswp__bg b-photoswipe-background"></div>
-          <div class="pswp__scroll-wrap b-photoswipe-scroll_wrap">
-            <div class="pswp__container b-photoswipe-container">
-              <div class="pswp__item b-photoswipe-item"></div>
-              <div class="pswp__item b-photoswipe-item"></div>
-              <div class="pswp__item b-photoswipe-item"></div>
+          <div className="pswp__bg b-photoswipe-background"></div>
+          <div className="pswp__scroll-wrap b-photoswipe-scroll_wrap">
+            <div className="pswp__container b-photoswipe-container">
+              <div className="pswp__item b-photoswipe-item"></div>
+              <div className="pswp__item b-photoswipe-item"></div>
+              <div className="pswp__item b-photoswipe-item"></div>
             </div>
             <div
-              class="pswp__ui pswp__ui--hidden b-photoswipe-ui"
+              className="pswp__ui pswp__ui--hidden b-photoswipe-ui"
               aria-hidden="true"
             >
-              <div class="pswp__top-bar b-photoswipe-top_bar">
-                <div class="pswp__counter b-photoswipe-counter"></div>
+              <div className="pswp__top-bar b-photoswipe-top_bar">
+                <div className="pswp__counter b-photoswipe-counter"></div>
                 <button
-                  class="pswp__button pswp__button--close b-photoswipe-button"
+                  className="pswp__button pswp__button--close b-photoswipe-button"
                   title="Close (Esc)"
                 ></button>
-                <div class="pswp__preloader b-photoswipe-preloader">
-                  <div class="pswp__preloader__icn">
-                    <div class="pswp__preloader__cut">
-                      <div class="pswp__preloader__donut"></div>
+                <div className="pswp__preloader b-photoswipe-preloader">
+                  <div className="pswp__preloader__icn">
+                    <div className="pswp__preloader__cut">
+                      <div className="pswp__preloader__donut"></div>
                     </div>
                   </div>
                 </div>
               </div>
               <button
-                class="pswp__button--arrow--left b-photoswipe-arrow m-prev"
+                className="pswp__button--arrow--left b-photoswipe-arrow m-prev"
                 title="Previous (arrow left)"
               ></button>
               <button
-                class="pswp__button--arrow--right b-photoswipe-arrow m-next"
+                className="pswp__button--arrow--right b-photoswipe-arrow m-next"
                 title="Next (arrow right)"
               ></button>
-              <div class="b-photoswipe-thumbnails js-thumbnails"></div>
-              <div class="pswp__caption b-photoswipe-caption">
-                <div class="pswp__caption__center"></div>
+              <div className="b-photoswipe-thumbnails js-thumbnails"></div>
+              <div className="pswp__caption b-photoswipe-caption">
+                <div className="pswp__caption__center"></div>
               </div>
             </div>
           </div>

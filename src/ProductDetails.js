@@ -2,150 +2,137 @@ import React from 'react';
 
 export default function ProductDetails({ product }) {
   return (
-    <main class="l-pdp-details b-product_details" aria-label="Product details">
-      <div class="b-product_details-breadcrumbs"></div>
-      <h1 class="b-product_details-name">{product.id}</h1>
-      <div class="b-product_details-form" data-ref="productForm">
-        <div class="b-product_details-price" data-tau="product_details_price">
-          <div class="b-price ">
-            <span class="b-price-to b-sr_only">Is</span>
-            <span class="b-price-item m-new">
+    <main
+      className="l-pdp-details b-product_details"
+      aria-label="Product details"
+    >
+      <div className="b-product_details-breadcrumbs"></div>
+      <h1 className="b-product_details-name">{product.id}</h1>
+      <div className="b-product_details-form" data-ref="productForm">
+        <div
+          className="b-product_details-price"
+          data-tau="product_details_price"
+        >
+          <div className="b-price ">
+            <span className="b-price-to b-sr_only">Is</span>
+            <span className="b-price-item m-new">
               £26.25
               <meta itemprop="priceCurrency" content="GBP" />
             </span>
-            <span class="b-price-to b-sr_only">, was</span>
+            <span className="b-price-to b-sr_only">, was</span>
             <span
-              class="b-price-item m-old"
-              data-tau-price="old"
+              className="b-price-item m-old"
               itemprop="price"
               content="35.00"
             >
               £35.00
               <meta itemprop="priceCurrency" content="GBP" />
             </span>
-            <span class="b-price-discount">25% OFF</span>
+            <span className="b-price-discount">25% OFF</span>
           </div>
-          <div
-            data-id="priceEstablishment"
-            data-widget="widget"
-            data-initialized="1"
-          >
+          <div>
             <div data-ref="container"></div>
           </div>
         </div>
-        <div class="b-product_details-variations">
-          <div class="b-product_details-variations_line">
-            <div
-              class="b-variation_label"
-              data-id="attr-line-color"
-              data-widget="widget"
-              data-initialized="1"
-            >
-              <span class="b-variation_label-name">Colour:</span>
-              <span class="b-variation_label-value" data-ref="lineContainer">
+        <div className="b-product_details-variations">
+          <div className="b-product_details-variations_line">
+            <div className="b-variation_label">
+              <span className="b-variation_label-name">Colour:</span>
+              <span
+                className="b-variation_label-value"
+                data-ref="lineContainer"
+              >
                 white
               </span>
             </div>
             <div
-              class="b-variation_label"
+              className="b-variation_label"
               data-id="attr-line-size"
               data-widget="widget"
               data-initialized="1"
             >
-              <span class="b-variation_label-name">Size:</span>
-              <span class="b-variation_label-value" data-ref="lineContainer">
+              <span className="b-variation_label-name">Size:</span>
+              <span
+                className="b-variation_label-value"
+                data-ref="lineContainer"
+              >
                 Select
               </span>
             </div>
           </div>
-          <section class="b-variations_item m-swatch m-color">
-            <div data-ref="container" class="b-variations_container">
+          <section className="b-variations_item m-swatch m-color">
+            <div data-ref="container" className="b-variations_container">
               <div
                 role="radiogroup"
-                aria-label="Colour"
-                aria-describedby="variation-error-1-color"
-                class="b-variations_item-content m-list"
+                className="b-variations_item-content m-list"
               >
                 <button
                   id="variation-swatch-button-1-105"
-                  class="b-variation_swatch m-swatch  "
+                  className="b-variation_swatch m-swatch  "
                   type="button"
                 >
-                  <span data-attr-value="105" class="b-variation_swatch-value">
-                    <span class="b-variation_swatch-color_value"></span>
+                  <span
+                    data-attr-value="105"
+                    className="b-variation_swatch-value"
+                  >
+                    <span className="b-variation_swatch-color_value"></span>
                   </span>
                 </button>
                 <button
                   id="variation-swatch-button-1-173"
-                  class="b-variation_swatch m-swatch  "
+                  className="b-variation_swatch m-swatch  "
                   type="button"
                 >
-                  <span data-attr-value="173" class="b-variation_swatch-value">
-                    <span class="b-variation_swatch-color_value"></span>
+                  <span
+                    data-attr-value="173"
+                    className="b-variation_swatch-value"
+                  >
+                    <span className="b-variation_swatch-color_value"></span>
                   </span>
                 </button>
               </div>
               <div
                 role="alert"
                 id="variation-error-1-color"
-                class="b-variations_item-error"
+                className="b-variations_item-error"
                 data-ref="errorFeedback"
                 hidden="hidden"
               ></div>
             </div>
           </section>
-          <section class="b-variations_item m-swatch m-size">
-            <div data-ref="container" class="b-variations_container">
-              <div
-                role="radiogroup"
-                aria-label="Size"
-                aria-describedby="variation-error-1-size"
-                class="b-variations_item-content m-list"
-              >
+          <section className="b-variations_item m-swatch m-size">
+            <div data-ref="container" className="b-variations_container">
+              <div className="b-variations_item-content m-list">
                 <button
                   id="variation-swatch-button-1-18"
-                  class="b-variation_swatch m-disabled "
-                  role="radio"
-                  aria-checked="false"
-                  aria-disabled="true"
-                  disabled=""
-                  data-allow-unselect="true"
-                  aria-label="10"
-                  data-global-event-click="pdp.swatch.select"
-                  data-swatch-name="10"
-                  data-attr-url="https://www.boohoo.com/on/demandware.store/Sites-boohoo-UK-Site/en_GB/Product-Variation?dwvar_FZZ81092_color=173&amp;dwvar_FZZ81092_size=18&amp;pid=FZZ81092&amp;quantity=1"
-                  data-attr-is-selected="false"
-                  data-attr-value="18"
-                  data-tau="variation_swatch"
-                  data-tau-size-id="18"
-                  title="Size: 10 (not available)"
+                  className="b-variation_swatch "
                 >
-                  <span class="b-variation_swatch-value">
-                    <span class="b-variation_swatch-value_text">10</span>
+                  <span className="b-variation_swatch-value">
+                    <span className="b-variation_swatch-value_text">10</span>
                   </span>
                 </button>
                 <button
                   id="variation-swatch-button-1-20"
-                  class="b-variation_swatch  "
+                  className="b-variation_swatch  "
                   role="radio"
                 >
-                  <span class="b-variation_swatch-value">
-                    <span class="b-variation_swatch-value_text">12</span>
+                  <span className="b-variation_swatch-value">
+                    <span className="b-variation_swatch-value_text">12</span>
                   </span>
                 </button>
                 <button
                   id="variation-swatch-button-1-22"
-                  class="b-variation_swatch  "
+                  className="b-variation_swatch  "
                 >
-                  <span class="b-variation_swatch-value">
-                    <span class="b-variation_swatch-value_text">14</span>
+                  <span className="b-variation_swatch-value">
+                    <span className="b-variation_swatch-value_text">14</span>
                   </span>
                 </button>
               </div>
               <div
                 role="alert"
                 id="variation-error-1-size"
-                class="b-variations_item-error"
+                className="b-variations_item-error"
                 data-ref="errorFeedback"
                 hidden="hidden"
               ></div>
@@ -156,25 +143,25 @@ export default function ProductDetails({ product }) {
       <div data-id="hazmat" data-widget="widget" data-initialized="1">
         <div data-ref="container"></div>
       </div>
-      <div class="b-product_details-actions">
-        <div class="b-coming_soon-pdp_form">
+      <div className="b-product_details-actions">
+        <div className="b-coming_soon-pdp_form">
           <div
             data-ref="disclosureContent"
-            class="m-hide"
+            className="m-hide"
             hidden="hidden"
           ></div>
         </div>
-        <div class="b-product_actions">
-          <div class="b-product_actions-inner">
-            <div class="b-product_details-quantity">
+        <div className="b-product_actions">
+          <div className="b-product_actions-inner">
+            <div className="b-product_details-quantity">
               <div>
                 <div data-ref="container">
-                  <label class="b-sr_only" for="quantity-1">
+                  <label className="b-sr_only" for="quantity-1">
                     QTY
                   </label>
-                  <div class="b-stepper">
+                  <div className="b-stepper">
                     <div
-                      class="b-stepper-button"
+                      className="b-stepper-button"
                       role="button"
                       tabindex="-1"
                       data-ref="buttonDecrease"
@@ -195,9 +182,9 @@ export default function ProductDetails({ product }) {
                         ></path>
                       </svg>
                     </div>
-                    <input id="quantity-1" class="b-stepper-input" />
+                    <input id="quantity-1" className="b-stepper-input" />
                     <div
-                      class="b-stepper-button"
+                      className="b-stepper-button"
                       role="button"
                       tabindex="-1"
                       data-ref="buttonIncrease"
@@ -220,7 +207,7 @@ export default function ProductDetails({ product }) {
                   </div>
                   <div
                     role="alert"
-                    class="b-variations_item-error"
+                    className="b-variations_item-error"
                     id="quantity-1-error"
                     data-ref="errorFeedback"
                     hidden="hidden"
@@ -230,33 +217,33 @@ export default function ProductDetails({ product }) {
             </div>
             <div
               data-ref="disclosureContent"
-              class="b-coming_soon-content_wrapper m-hide"
+              className="b-coming_soon-content_wrapper m-hide"
               hidden="hidden"
               aria-hidden="true"
             ></div>
             <button
-              class="b-product_addtocard b-button m-width_full "
+              className="b-product_addtocard b-button m-width_full "
               type="button"
             >
               <span
-                class="b-product_addtocard-availability"
+                className="b-product_addtocard-availability"
                 data-ref="container"
               >
                 Add to cart
               </span>
             </button>
-            <div class="b-product_actions m-auxiliary b-product_wishlist">
+            <div className="b-product_actions m-auxiliary b-product_wishlist">
               <button
                 type="button"
-                class="b-button m-outline b-product_wishlist-button b-wishlist_button"
+                className="b-button m-outline b-product_wishlist-button b-wishlist_button"
               >
                 <i
-                  class="b-button-icon b-wishlist_button-icon"
+                  className="b-button-icon b-wishlist_button-icon"
                   aria-hidden="true"
                 ></i>
                 <span data-ref="container">Save for later</span>
               </button>
-              <a class="b-button b-product_actions-see_similar" href="">
+              <a className="b-button b-product_actions-see_similar" href="">
                 <span data-ref="container">See similar</span>
               </a>
             </div>
@@ -265,21 +252,14 @@ export default function ProductDetails({ product }) {
         <div
           role="alert"
           hidden="hidden"
-          class="b-message m-error b-product_wishlist-action m-hide"
+          className="b-message m-error b-product_wishlist-action m-hide"
         >
-          <div data-ref="container" class="b-message-inner">
-            <div class="b-notifier-content" data-ref="labelContent"></div>
+          <div data-ref="container" className="b-message-inner">
+            <div className="b-notifier-content" data-ref="labelContent"></div>
           </div>
         </div>
       </div>
-      <div
-        class="b-product_actions m-hide"
-        role="alert"
-        hidden="hidden"
-        data-widget="label"
-        data-id="addToCartMsg"
-        data-initialized="1"
-      >
+      <div className="b-product_actions m-hide" hidden="hidden">
         <div data-ref="container"></div>
       </div>
       <section>
